@@ -5,7 +5,7 @@ WORKDIR /app
 COPY requirements.txt ./
 
 RUN apt-get update && \
-    apt-get install -y awscli python3 python3-pip jq && \
+    apt-get install -y awscli python3 python3-pip jq graphviz plantuml && \
     rm -rf /var/lib/apt/lists/* && \
     pip3 install -r requirements.txt && \
     rm requirements.txt && \

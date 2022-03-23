@@ -1,1 +1,2 @@
 mkdocs==1.2.3
+mkdocs-techdocs-core==1.0.0
